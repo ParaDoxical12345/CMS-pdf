@@ -30,7 +30,7 @@
         <template #header>
             <div class="flex items-center justify-between">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Patients</h2>
-                <a as="button" href='/generate-pdf' class="p-2 rounded-lg text-sm text-white bg-blue-600">Export PDF</a>
+                <a  as="button" :href="'/generate-pdf/' + patient.id" class="p-2 rounded-lg text-sm text-white bg-blue-600">Export PDF</a >
             </div>
         </template>
 

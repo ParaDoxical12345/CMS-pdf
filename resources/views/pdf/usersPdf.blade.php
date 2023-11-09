@@ -20,9 +20,9 @@
     </div>
     <br>
     <p class="text-align text-end">{{ $date }}</p>
-    @foreach($users as $user)
+    @foreach($patient as $p)
 
-    <p>This is to certify that I have personally examined {{$user->firstname}} {{$user->lastname}}  {{$user->gender}}</p>
+    <p>This is to certify that I have personally examined {{$p->user->firstname}} {{$p->user->lastname}}  {{$p->gender}}</p>
     <p>From  Course Have found the he/she is Physically and mentally fit during the time of the examnination</p>
 
     <br>
